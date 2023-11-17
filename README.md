@@ -42,7 +42,7 @@ conda activate GallaryAI
 Windows:
 ```bash 
 # 前往官网下载对应版本的PyTorch。使用 GPU 训练需要手动安装完整版 PyTorch
-conda install pytorch=2.0.0 torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 # 运行程序脚本测试 PyTorch 是否能成功调用 GPU
 python gpu.py
