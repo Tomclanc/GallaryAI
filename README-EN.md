@@ -3,7 +3,7 @@ Gallary Assistant, categorizing and filtering photos, such as selfies and landsc
 
 # GallaryAI
 
-[简体中文](README-CN.md) | [English](README-EN.md) | [日本語](README_JA.md)
+[简体中文](README-CN.md) | [English] | [日本語](README_JA.md)
 
 GallaryAI, a photo classification and sorting tool, such as for selfies and landscape photos. This project includes a series of Python scripts for image classification and management, aiming to intelligently categorize and organize photos in a gallery using deep learning models, such as identifying and sorting selfies and landscape photos. The project is implemented based on Convolutional Neural Networks (CNN) and uses PyTorch as the primary deep learning framework. A model trained by me is available for download here: https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBckpVdXJnZURwTHNpNE04aDRleHEyaUtKY0lFd1E_ZT1jMERFY0k.pth
 
