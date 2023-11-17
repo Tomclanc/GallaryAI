@@ -37,7 +37,6 @@ conda create -n GallaryAI python=3.8.18
 conda activate GallaryAI
 ```
 
-在 Windows 与 macOS 下配置外部代码库的过程略有不同。Windows 下使用 CUDA 加速，macOS 下则使用 MPS (Metal Performance Shaders) 进行加速，且需要降级 `pip` 与 `setuptools`。
 
 Windows:
 ```bash 
