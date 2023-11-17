@@ -17,6 +17,7 @@
 ├───cnn.py
 ├───ceshi.py
 ├───Start.ps1
+├───requirement.txt
 └───best_model.pth
 ```
 
