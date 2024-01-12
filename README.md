@@ -76,7 +76,7 @@ python ceshi.py
 
 ```bash
 cd "所在目录"
-tensorboard --logdir=logs/
+tensorboard --logdir=logs/ --bind_all --reload_interval 60
 ```
 
 在浏览器中打开 Tensorboard 服务默认地址 `http://localhost:6006/`，即可查看训练过程的交互式曲线图。
