@@ -67,7 +67,7 @@ The project includes Tensorboard curve graphs of the training process, which can
 
 ```bash
 cd "Directory"
-tensorboard --logdir=logs/
+tensorboard --logdir=logs/ --bind_all --reload_interval 60
 ```
 
 Open the default address of the Tensorboard service http://localhost:6006/ in a browser to view the interactive curve graphs of the training process.
