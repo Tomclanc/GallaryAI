@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ```bash
 cd "所在ディレクトリ"
-tensorboard --logdir=logs/
+tensorboard --logdir=logs/ --bind_all --reload_interval 60
 ```
 
 ブラウザでTensorboardサービスのデフォルトアドレスhttp://localhost:6006/を開くと、訓練過程のインタラクティブな曲線図を閲覧できます。
